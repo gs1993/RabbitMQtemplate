@@ -2,11 +2,11 @@
 using System.Linq;
 using CSharpFunctionalExtensions;
 
-namespace Common.Message.ValueObjects
+namespace Common.Messages.ValueObjects
 {
     public class Amount
     {
-        private const int _currencyLength = 3;
+        private const uint _currencyLength = 3;
 
 
         private Amount(decimal amountValue, string currency, int decimalPlaces)
@@ -24,6 +24,7 @@ namespace Common.Message.ValueObjects
 
         public static Result<Amount> Create(decimal amountValue, string currency, int decimalPlaces)
         {
+            uint a = 3u;
             if(amountValue < 0)
                 return Result.Fail<Amount>("Amount cannot be less than zero");
 

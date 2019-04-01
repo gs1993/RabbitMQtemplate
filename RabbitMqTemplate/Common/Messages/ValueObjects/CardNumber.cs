@@ -2,7 +2,7 @@
 using System.Text;
 using CSharpFunctionalExtensions;
 
-namespace Common.Message.ValueObjects
+namespace Common.Messages.ValueObjects
 {
     public class CardNumber
     {

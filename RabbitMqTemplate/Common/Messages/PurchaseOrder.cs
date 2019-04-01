@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Common.Message
+namespace Common.Messages
 {
     [Serializable]
     public class PurchaseOrder

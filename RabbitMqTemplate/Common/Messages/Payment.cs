@@ -1,8 +1,8 @@
 ﻿using System;
-using Common.Message.ValueObjects;
+using Common.Messages.ValueObjects;
 using CSharpFunctionalExtensions;
 
-namespace Common.Message
+namespace Common.Messages
 {
     [Serializable]
     public class Payment
