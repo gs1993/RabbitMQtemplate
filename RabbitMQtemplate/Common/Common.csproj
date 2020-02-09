@@ -51,7 +51,9 @@
     <Compile Include="Messages\ValueObjects\Amount.cs" />
     <Compile Include="Messages\ValueObjects\CardNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\Consts.cs" />
     <Compile Include="Utils\ObjectSerialize.cs" />
+    <Compile Include="Utils\SampleData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
