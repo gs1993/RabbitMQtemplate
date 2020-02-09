@@ -1,0 +1,17 @@
+1. MergeInvoices
+- Konfiguracja Elasticsearch
+- Konfiguracja Docker-a
+- Przygotowanie zapytań REST do testów
+
++Unit tests
+
+
+
+2. A/A
+- Ekran logowania
+- Serwis do A/A
+- Ekran z listą logów
+- 
+
++Konto testowe
++MVC, czy angular
